@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 100 100" role="img" aria-label="FindACart">
+  <title>FindACart</title>
+  <rect width="100" height="100" rx="22" fill="#059669"/>
+  <g transform="translate(15.9 17.14) scale(0.62)"
+     fill="none" stroke="#ffffff" stroke-width="5.2"
+     stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="8,22 22,22 30,38"/>
+    <polygon points="30,38 94,38 84,66 40,66"/>
+    <line x1="33" y1="47" x2="91" y2="47"/>
+    <line x1="44" y1="66" x2="48" y2="73"/>
+    <line x1="80" y1="66" x2="78" y2="73"/>
+  </g>
+  <g transform="translate(15.9 17.14) scale(0.62)" fill="#ffffff">
+    <circle cx="48" cy="79" r="5.5"/>
+    <circle cx="78" cy="79" r="5.5"/>
+  </g>
+</svg>
