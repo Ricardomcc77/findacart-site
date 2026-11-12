@@ -3,65 +3,96 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>FindACart - Meal planning and shared shopping lists</title>
-<meta name="description" content="Plan your week's meals in minutes, then shop from one shared list you arrange to match your store. FindACart LLC.">
-<meta name="robots" content="index, follow">
+<title>FindACart — Meal planning &amp; shared grocery lists</title>
+<meta name="description" content="FindACart brings recipes, weekly meal planning, and shared grocery lists together. Learn about FindACart LLC and our grocery planning app.">
 <link rel="canonical" href="https://findacart.com/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://findacart.com/">
-<meta property="og:title" content="FindACart - Meal planning and shared shopping lists">
-<meta property="og:description" content="Plan your week's meals in minutes, then shop from one shared list you arrange to match your store. FindACart LLC.">
+<meta property="og:title" content="FindACart — Meal planning &amp; shared grocery lists">
+<meta property="og:description" content="FindACart brings recipes, weekly meal planning, and shared grocery lists together. Learn about FindACart LLC and our grocery planning app.">
 <meta property="og:site_name" content="FindACart">
-<meta name="theme-color" content="#fbf7f0" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#1c1a17" media="(prefers-color-scheme: dark)">
+<meta property="og:image" content="https://findacart.com/assets/meal-still-life-social.jpg">
+<meta property="og:image:alt" content="A chickpea salad and fresh ingredients on a cream tabletop. Original illustrative food image.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#fbf7f0">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preload" href="/fonts/AtkinsonHyperlegibleNext-variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/BricolageGrotesque-variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-<header>
-<div class="wrap">
-<a class="brand" href="/"><img src="/favicon.svg" alt="" width="32" height="32">FindACart</a>
-</div>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/" aria-label="FindACart home"><img src="/favicon.svg" alt="" width="36" height="36">FindACart<span class="brand-dot" aria-hidden="true">.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="/#how-it-works">How it works</a>
+      <a href="/#about">About us</a>
+      <a href="/#faq">FAQ</a>
+    </nav>
+  </div>
 </header>
-<main class="wrap">
-<section class="hero">
-<h1>FindACart</h1>
-<p class="lede">Plan your week's meals in minutes, then shop from one shared list you arrange to match your store.</p>
-<p class="status">Coming soon to the web, iPhone and Android.</p>
-</section>
-<ul class="features">
-<li>
-<h2>Plan the week</h2>
-<p>Fill the empty meals in your week from your own saved recipes or new ones, then move or swap any dish.</p>
-</li>
-<li>
-<h2>Keep your recipes</h2>
-<p>Save recipes from a website link or by pasting the recipe text, and plan meals from them.</p>
-</li>
-<li>
-<h2>Shop together</h2>
-<p>Turn the week's meals into one shopping list and share it with your household, or share a single list with one other person.</p>
-</li>
-</ul>
-<section class="contact card">
-<h2>Contact</h2>
-<p>FindACart LLC builds FindACart, a grocery shopping and meal-planning app.</p>
-<p>Email: <a href="mailto:support@findacart.com">support@findacart.com</a></p>
-</section>
+<main id="main">
+  <section class="hero wrap" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> A simpler way to plan &amp; shop</p>
+      <h1 id="hero-title">Plan the meals.<br>Share the list.<br><span>Enjoy your week.</span></h1>
+      <p class="hero-description">Save your recipes, plan the week, and bring everyone’s groceries together in one shared list.</p>
+      <a class="button" href="#how-it-works">See how it works <span aria-hidden="true">↘</span></a>
+      <p class="launch-note">In development for web, iPhone &amp; Android.</p>
+    </div>
+    <figure class="hero-visual">
+      <img class="hero-photo" src="/assets/meal-still-life.webp" srcset="/assets/meal-still-life-small.webp 768w, /assets/meal-still-life.webp 1536w" sizes="(max-width: 760px) calc(100vw - 40px), 50vw" width="1536" height="1024" fetchpriority="high" alt="Chickpea salad with tomatoes and leafy greens, surrounded by fresh carrots, lemons, basil and pasta.">
+      <figcaption>Fresh inspiration for the week ahead.</figcaption>
+    </figure>
+  </section>
+
+  <section class="wrap product-section" id="how-it-works" aria-labelledby="product-title">
+    <div class="section-intro">
+      <p class="eyebrow">Inside FindACart</p>
+      <h2 id="product-title">A little planning.<br>A simpler shop.</h2>
+      <p>Save recipes from a link or your own notes. Bring them into your week, then turn the ingredients into a grocery list.</p>
+    </div>
+    <div class="product-grid">
+      <article class="product-feature">
+        <figure class="product-visual planner-visual">
+          <img class="product-detail" src="/assets/meal-planner-detail.webp" width="358" height="215" alt="Current meal planner detail showing three upcoming dinners: vegetable stir-fry, baked potatoes and greens, and a Sunday vegetable roast.">
+        </figure>
+        <h3>A week with room for change.</h3>
+        <p>Keep your meals in view. Move or swap a dish when life changes the plan.</p>
+      </article>
+      <article class="product-feature">
+        <figure class="product-visual shopping-visual">
+          <img class="product-detail" src="/assets/shopping-list-detail.webp" width="366" height="239" alt="Current shopping list detail showing tomatoes, lemons, leafy greens and carrots in the Produce aisle.">
+        </figure>
+        <h3>One list. Everyone in the loop.</h3>
+        <p>Add the everyday extras, organize by aisle, and share the list with your household.</p>
+      </article>
+    </div>
+    <p class="preview-note">Details from the current web app, shown with sample data.</p>
+  </section>
+
+  <section class="company-section" id="about" aria-labelledby="about-title"><div class="wrap company-grid">
+    <div><p class="eyebrow">Meet FindACart</p><h2 id="about-title">Built around<br>your household.</h2></div>
+    <div class="company-copy"><p>FindACart LLC is building a simpler way to connect recipes, meal planning, and grocery shopping. Plan just for yourself or coordinate with the people you share meals with.</p><p>The app is in development for web, iPhone, and Android.</p><p class="company-email"><a href="mailto:support@findacart.com">support@findacart.com</a></p></div>
+  </div></section>
+
+  <section class="wrap faq-section" id="faq" aria-labelledby="faq-title"><div><p class="eyebrow">A few useful details</p><h2 id="faq-title">Before you ask.</h2></div><div class="faq-list">
+    <details><summary>Can I download FindACart yet?</summary><p>Not yet. FindACart is in development for the web, iPhone, and Android. We’ll publish availability here when the app is ready. There is no public download or signup at this time.</p></details>
+    <details><summary>Can I order groceries through FindACart?</summary><p>Not today. FindACart is for planning meals and organizing shopping lists. Grocery ordering and delivery are not currently available.</p></details>
+    <details><summary>Where can I find company and privacy information?</summary><p>FindACart is built by FindACart LLC. Read our <a href="/privacy/">Privacy Policy</a> and <a href="/terms/">Terms of Service</a>. Company email: <a href="mailto:support@findacart.com">support@findacart.com</a>.</p></details>
+  </div></section>
+
 </main>
-<footer>
-<div class="wrap">
-<p>&copy; 2026 FindACart LLC</p>
-<nav aria-label="Legal and support">
-<ul>
-<li><a href="/privacy">Privacy</a></li>
-<li><a href="/terms">Terms</a></li>
-<li><a href="/support">Support</a></li>
-</ul>
-</nav>
-</div>
+<footer class="site-footer">
+  <div class="wrap footer-top">
+    <div><a class="brand" href="/"><img src="/favicon.svg" alt="" width="32" height="32">FindACart<span class="brand-dot" aria-hidden="true">.</span></a><p>Good meals start with a plan.</p></div>
+    <nav aria-label="Company and legal information">
+      <a href="/#about">About us</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a>
+    </nav>
+  </div>
+  <div class="wrap footer-bottom"><p>&copy; 2026 FindACart LLC</p></div>
 </footer>
 </body>
 </html>

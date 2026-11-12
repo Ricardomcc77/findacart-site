@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://findacart.com/sitemap.xml
